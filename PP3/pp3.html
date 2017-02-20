@@ -7,13 +7,14 @@
 <body>
 	<section>
 		<h1>Volunteer Form</h1>
-		<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="Post" >
+		<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post" >
 		<fieldset id="myinfo">
 			<legend>My info</legend>
-			<label>First Name: <input type="text" name="first_name_field" placeholder="FirstName"></label><br>
-			<label>Last Name: <input type="text" name="last_name_field" placeholder="LastName"></label> <br>
-			<label>Phone Number: <input type="tel" name="phone_field" placeholder="123-456-7890"></label> <br>
-			<label>Email Address: <input type="email" name="email_field" placeholder="example@example.com"></label>
+			<p><label>First Name: <input type="text" name="first_name_field" placeholder="FirstName"></label></p>
+			<p>Last Name: <input type="text" name="last_name_field" placeholder="LastName"></label> </p>
+			<p>Phone Number: <input type="tel" name="phone_field" placeholder="123-456-7890"></label> </P>
+			<p>Email Address: <input type="email" name="email_field" placeholder="example@example.com"></label>
+			
 			<p>
 				<label>Gender: </label>
 				<label>Male<input type="radio" name="gender_field" value ="male"></label>
@@ -59,6 +60,7 @@
 		</fieldset>
 
 		<input type="submit" value="submit">
+		<input type="reset" value="reset">
 	</form>
 	</section>
 </body>
