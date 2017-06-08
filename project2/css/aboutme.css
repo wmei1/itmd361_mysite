@@ -1,0 +1,22 @@
+h1{
+	text-align: center;
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.75em;	
+
+}
+p.me{
+	text-indent: 32px;
+}
+
+div#bodytext{
+margin: 10px;
+}
+
+div#text{
+font-size: 12pt;
+}

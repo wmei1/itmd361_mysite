@@ -1,0 +1,132 @@
+#navbar,
+#navbar ul,
+#navbar ul li,
+#navbar ul li a{
+	 display: inline-block;
+	background-color: #173485;
+	color: #fafafa;
+	font-size: 1em;
+	padding:.15em;
+}
+
+#nav{
+	width:54.45em;
+	text-align: center;
+
+}
+html{
+
+}
+#wrapper{
+	width:55em;
+	font-size:.975em;
+	margin: auto;
+	background-color: white;
+
+}
+
+#wrapper2{
+	outline: .375em;
+	border-style: solid;
+	border-width: .25em;
+	border-color: #173485;
+	padding-left: .375em;
+	padding-right: .375em;
+	width:54em;
+
+}
+
+img {
+    max-width: 50%;
+    height: 3.125em;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+html {
+	background-image: url('../images/arcade.jpg');
+	background-size: cover;
+}
+
+
+html{
+	margin:auto;
+}
+
+h1{
+	text-align: center;
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+h2.resumeHeads{
+	padding-right: 52.125em;
+	font-size:1.1em;
+	font-weight:bold;
+	text-align: left;
+	position: absolute;
+
+}
+h3{
+	font-size: 1em;
+	font-weight:bold;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em{
+	font-style: italic;
+}
+
+p.contact{
+	text-align:center;
+}
+div.bodytxt{
+	padding-left: 10.5em;
+}
+
+
+div#iitedu {
+	text-align: right;
+    margin-top: -10.875em;
+    position: absolute;
+    margin-left: 39.375em;
+}
+div#iitwork {
+    text-align: right;
+    margin-top: -3.75em;
+    position: absolute;
+    margin-left: 34.575em;
+}
+div.bodytxt{
+	padding-left: 8.25em;
+}
+
+p.courses{
+	width:30em;
+}
+
+p.me{
+	text-indent: 2em;
+}
+
+
+div#bodytext{
+margin: .625em;
+}
+
+div#text{
+font-size: 1em;
+}
+
+div#map {
+	height:30em;
+	width:100%;
+	margin-top: 1em;
+}
+footer{
+    text-align: center;
+}

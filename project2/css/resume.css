@@ -1,0 +1,64 @@
+
+html{
+	margin:auto;
+}
+
+h1{
+	text-align: center;
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+h2{
+	padding-right: 695px;
+	font-size:1.1em;
+	font-weight:bold;
+	text-align: left;
+	position: absolute;
+
+}
+h3{
+	font-size: 1em;
+	font-weight:bold;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em{
+	font-style: italic;
+}
+
+p.contact{
+	text-align:center;
+}
+div.bodytxt{
+	padding-left: 140px;
+}
+
+h2{
+	font-size:1.1em;
+	font-weight:bold;
+	text-align: left;
+}
+
+div#iitedu {
+	text-align: right;
+    margin-top: -145px;
+    position: absolute;
+    margin-left: 525px;
+}
+div#iitwork {
+    text-align: right;
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 461px;
+}
+div.bodytxt{
+	padding-left: 110px;
+}
+
+p.courses{
+	width:400px;
+}

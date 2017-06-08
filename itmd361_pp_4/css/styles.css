@@ -1,0 +1,53 @@
+h1,td,th{
+  text-align: center;
+}
+table,header,footer{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header>h1{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+table,th,td{
+  border:.05em  solid white;
+  background: transparent;
+  color: white;
+  width: 50%;
+}
+
+header {
+  background: transparent;
+  color:white;
+}
+footer{
+  text-align: center;
+  background: transparent;
+  color: white;
+}
+
+#mercuryhover, #saturnhover, #marshover ,#neptunehover{
+  visibility: hidden;
+  position: absolute;
+  width: 12em;
+  height: 20em;
+}
+
+#mercury:hover #mercuryhover{
+  visibility:visible;
+}
+#saturn:hover #saturnhover{
+  visibility:visible;
+}
+#mars:hover #marshover{
+  visibility:visible;
+}
+#neptune:hover #neptunehover{
+  visibility:visible;
+}
+html{
+  background: no-repeat center/cover url("../images/galaxy.jpg") ;
+    background-color: black;
+}
